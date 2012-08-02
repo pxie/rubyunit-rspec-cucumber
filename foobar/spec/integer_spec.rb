@@ -18,7 +18,8 @@ describe Calculation::Integer do
   end
 
   it "(2 + 3) * 6 should be 30", :add => true, :multiple => true do
-    ((2 + 3) * 6).should == 31
+    ((2 + 3) * 6).should == 30
+    sleep(5)
   end
 
 end
